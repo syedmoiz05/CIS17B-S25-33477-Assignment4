@@ -1,38 +1,32 @@
-# CIS17B-S25-33477-Assignment4
-# User Instructions
+#  - User Instructions
 
 ## How to Compile
 
-1. Open a terminal or command prompt.  
-2. Navigate to the directory containing `storage_manager.cpp`.  
+1. Open a terminal or command prompt.
+2. Navigate to the directory containing the source file 
 3. Compile the code using:
 
-   ```bash
-   g++ -std=c++11 -o storage_manager storage_manager.cpp
-How to Run
-• On Linux or macOS:
+   g++ -std=c++11 -o LibrarySystem LibrarySystem.cpp
 
-./storage_manager
+  
 
-• On Windows:
+## How to Run
 
-storage_manager.exe
+- On Linux or macOS:
+  ./LibrarySystem
 
-How to use
-Launch the program.
+- On Windows:
+  LibrarySystem.exe
 
-A menu will show up with options:
-
-Add an item
-
-Find an item by ID
-
-Remove an item by ID
-
-List items by description
-
-Exit the program
-
+## How to Use
+1. Launch the program.
+2. A menu will show up with options:
+3. Add an item
+4. Find an item by ID
+5. Remove an item by ID
+6. List items by description
+7. Exit the program
+   
 You type the number of the option you want and hit enter. The program checks for errors like:
 
 Trying to add an item with a duplicate ID
