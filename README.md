@@ -1,4 +1,4 @@
-#  - User Instructions
+# Storage Management System - User Instructions
 
 ## How to Compile
 
@@ -6,17 +6,17 @@
 2. Navigate to the directory containing the source file 
 3. Compile the code using:
 
-   g++ -std=c++11 -o LibrarySystem LibrarySystem.cpp
+   g++ -std=c++11 -o StorageManagementSystem  StorageManagementSystem .cpp
 
   
 
 ## How to Run
 
 - On Linux or macOS:
-  ./LibrarySystem
+  ./StorageManagementSystem 
 
 - On Windows:
-  LibrarySystem.exe
+  StorageManagementSystem.exe
 
 ## How to Use
 1. Launch the program.
